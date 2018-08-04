@@ -1,0 +1,1414 @@
+@prefix : <http://www.semanticweb.org/luolixuan/ontologies/2018/6/untitled-ontology-34#> .
+@prefix ns1: <http://www.w3.org/2006/time#> .
+@prefix ns2: <http://www.semanticweb.org/luolixuan/ontologies/tove2/test#> .
+@prefix ns3: <http://ontology.eil.utoronto.ca/TOVE2/ctime.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ontology.eil.toronto.ca/TOVE2/test_example.ttl> a owl:Ontology ;
+    owl:imports <http://ontology.eil.utoronto.ca/TOVE2/ctime.owl>,
+        <http://ontology.eil.utoronto.ca/activity.owl> .
+
+ns2:Apr_22 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 22 ;
+    ns1:month 4 ;
+    ns1:year 2018 .
+
+ns2:Business_Dec_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Business ;
+    ns2:has_TimeInterval ns2:Business_Dec_TimeInterval .
+
+ns2:Business_Feb_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Business ;
+    ns2:has_TimeInterval ns2:Business_Feb_TimeInterval .
+
+ns2:Business_Jan_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Business ;
+    ns2:has_TimeInterval ns2:Business_Jan_TimeInterval .
+
+ns2:Permits_Apr_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Permits ;
+    ns2:has_TimeInterval ns2:Permits_Apr_TimeInterval .
+
+ns2:Permits_Aug_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Permits ;
+    ns2:has_TimeInterval ns2:Permits_Aug_TimeInterval .
+
+ns2:Permits_Feb_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Permits ;
+    ns2:has_TimeInterval ns2:Permits_Feb_TimeInterval .
+
+ns2:Police_Apr_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Police ;
+    ns2:has_TimeInterval ns2:Police_Apr_TimeInterval .
+
+ns2:Police_Feb_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Police ;
+    ns2:has_TimeInterval ns2:Police_Feb_TimeInterval .
+
+ns2:Police_July_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Police ;
+    ns2:has_TimeInterval ns2:Police_July_TimeInterval .
+
+ns2:Police_Oct_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Police ;
+    ns2:has_TimeInterval ns2:Police_Oct_TimeInterval .
+
+ns2:Power_Feb_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Power ;
+    ns2:has_TimeInterval ns2:Power_Feb_TimeInterval .
+
+ns2:Power_Jan_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Power ;
+    ns2:has_TimeInterval ns2:Power_Jan_TimeInterval .
+
+ns2:Power_July_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Power ;
+    ns2:has_TimeInterval ns2:Power_July_TimeInterval .
+
+ns2:Power_Nov_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Power ;
+    ns2:has_TimeInterval ns2:Power_Nov_TimeInterval .
+
+ns2:Sewage_Apr_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Sewage ;
+    ns2:has_TimeInterval ns2:Sewage_Apr_TimeInterval .
+
+ns2:Sewage_Aug_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Power ;
+    ns2:has_TimeInterval ns2:Sewage_Aug_TimeInterval .
+
+ns2:Sewage_Feb_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Sewage ;
+    ns2:has_TimeInterval ns2:Sewage_Feb_TimeInterval .
+
+ns2:Sewage_Jan_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Sewage ;
+    ns2:has_TimeInterval ns2:Sewage_Jan_TimeInterval .
+
+ns2:Sewage_June_Aactivity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Sewage ;
+    ns2:has_TimeInterval ns2:Sewage_June_TimeInterval .
+
+ns2:Sewage_Oct_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Sewage ;
+    ns2:has_TimeInterval ns2:Sewage_Oct_TimeInterval .
+
+ns2:Transportation_Dec_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Transportation ;
+    ns2:has_TimeInterval ns2:Transportation_Dec_TimeInterval .
+
+ns2:Transportation_Feb_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Transportation ;
+    ns2:has_TimeInterval ns2:Transportation_Feb_TimeInterval .
+
+ns2:Transportation_Jan_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Transportation ;
+    ns2:has_TimeInterval ns2:Transportation_Jan_TimeInterval .
+
+ns2:Transportation_May_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Transportation ;
+    ns2:has_TimeInterval ns2:Transportation_May_TimeInterval .
+
+ns2:Transportation_Sep_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Transportation ;
+    ns2:has_TimeInterval ns2:Transportation_Sep_TimeInterval .
+
+ns2:Water_Apr_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Water ;
+    ns2:has_TimeInterval ns2:Water_Apr_TimeInterval .
+
+ns2:Water_Aug_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Water ;
+    ns2:has_TimeInterval ns2:Water_Aug_TimeInterval .
+
+ns2:Water_Feb_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Water ;
+    ns2:has_TimeInterval ns2:Water_Feb_TimeInterval .
+
+ns2:Water_Jan_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Water ;
+    ns2:has_TimeInterval ns2:Water_Jan_TimeInterval .
+
+ns2:Water_June_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Water ;
+    ns2:has_TimeInterval ns2:Water_June_TimeInterval .
+
+ns2:Water_Oct_Activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity>,
+        owl:NamedIndividual ;
+    ns2:has_Department ns2:Water ;
+    ns2:has_TimeInterval ns2:Water_Oct_TimeInterval .
+
+ns2:has_Department a owl:ObjectProperty ;
+    rdfs:domain <http://ontology.eil.utoronto.ca/activity.owl#Activity> ;
+    rdfs:range ns2:Department ;
+    rdfs:subPropertyOf <http://ontology.eil.utoronto.ca/activity.owl#activityObjectProperty> .
+
+ns2:has_TimeInterval a owl:ObjectProperty ;
+    rdfs:domain <http://ontology.eil.utoronto.ca/activity.owl#Activity> ;
+    rdfs:range ns3:CDateTimeInterval ;
+    rdfs:subPropertyOf <http://ontology.eil.utoronto.ca/activity.owl#activityObjectProperty> .
+
+ns2:test_activity a <http://ontology.eil.utoronto.ca/activity.owl#Activity> ;
+    ns2:has_Department ns2:Water ;
+    ns2:has_TimeInterval ns2:test_activity_timeInterval .
+
+ns1:TemporalPosition rdfs:subClassOf ns1:GeneralDateTimeDescription .
+
+ns2:Apr_1 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 1 ;
+    ns1:month 4 ;
+    ns1:year 2018 .
+
+ns2:Apr_20 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 20 ;
+    ns1:month 4 ;
+    ns1:year 2018 .
+
+ns2:Aug_1 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 1 ;
+    ns1:month 8 ;
+    ns1:year 2018 .
+
+ns2:Aug_18 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 18 ;
+    ns1:month 8 ;
+    ns1:year 2018 .
+
+ns2:Aug_4 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 4 ;
+    ns1:month 8 ;
+    ns1:year 2018 .
+
+ns2:Business_Dec_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Dec_12 ;
+    ns3:hasMin ns2:Dec_9 .
+
+ns2:Business_Dec_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Dec_15 ;
+    ns3:hasMin ns2:Dec_12 .
+
+ns2:Business_Dec_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Dec_9 ;
+    ns3:hasMin ns2:Dec_7 .
+
+ns2:Business_Dec_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Business_Dec_Start ;
+    ns1:hasDuration ns2:Business_Dec_Duration ;
+    ns1:hasEnd ns2:Business_Dec_End .
+
+ns2:Business_Feb_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Feb_20 ;
+    ns3:hasMin ns2:Feb_18 .
+
+ns2:Business_Feb_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Feb_21 ;
+    ns3:hasMin ns2:Feb_20 .
+
+ns2:Business_Feb_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Feb_18 ;
+    ns3:hasMin ns2:Feb_16 .
+
+ns2:Business_Feb_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Business_Feb_Start ;
+    ns1:hasDuration ns2:Business_Feb_Duration ;
+    ns1:hasEnd ns2:Business_Feb_End .
+
+ns2:Business_Jan_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Jan_9 ;
+    ns3:hasMin ns2:Jan_6 .
+
+ns2:Business_Jan_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Jan_10 ;
+    ns3:hasMin ns2:Jan_9 .
+
+ns2:Business_Jan_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Jan_6 ;
+    ns3:hasMin ns2:Jan_4 .
+
+ns2:Business_Jan_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Business_Jan_Start ;
+    ns1:hasDuration ns2:Business_Jan_Duration ;
+    ns1:hasEnd ns2:Business_Jan_End .
+
+ns2:Dec_19 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 19 ;
+    ns1:month 12 ;
+    ns1:year 2018 .
+
+ns2:Dec_7 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 7 ;
+    ns1:month 12 ;
+    ns1:year 2018 .
+
+ns2:Feb_19 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 19 ;
+    ns1:month 2 ;
+    ns1:year 2018 .
+
+ns2:Feb_21 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 21 ;
+    ns1:month 2 ;
+    ns1:year 2018 .
+
+ns2:Feb_3 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 3 ;
+    ns1:month 2 ;
+    ns1:year 2018 .
+
+ns2:Feb_7 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 7 ;
+    ns1:month 2 ;
+    ns1:year 2018 .
+
+ns2:Jan_12 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 12 ;
+    ns1:month 1 ;
+    ns1:year 2018 .
+
+ns2:Jan_20 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 20 ;
+    ns1:month 1 ;
+    ns1:year 2018 .
+
+ns2:Jan_27 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 27 ;
+    ns1:month 1 ;
+    ns1:year 2018 .
+
+ns2:July_22 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 22 ;
+    ns1:month 7 ;
+    ns1:year 2018 .
+
+ns2:May_14 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 14 ;
+    ns1:month 5 ;
+    ns1:year 2018 .
+
+ns2:May_20 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 20 ;
+    ns1:month 5 ;
+    ns1:year 2018 .
+
+ns2:Nov_13 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 13 ;
+    ns1:month 11 ;
+    ns1:year 2018 .
+
+ns2:Nov_22 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 22 ;
+    ns1:month 11 ;
+    ns1:year 2018 .
+
+ns2:Oct_1 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 1 ;
+    ns1:month 10 ;
+    ns1:year 2018 .
+
+ns2:Oct_14 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 14 ;
+    ns1:month 10 ;
+    ns1:year 2018 .
+
+ns2:Oct_17 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 17 ;
+    ns1:month 10 ;
+    ns1:year 2018 .
+
+ns2:Oct_4 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 4 ;
+    ns1:month 10 ;
+    ns1:year 2018 .
+
+ns2:Permits_Apr_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Apr_16 ;
+    ns3:hasMin ns2:Apr_15 .
+
+ns2:Permits_Apr_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Apr_20 ;
+    ns3:hasMin ns2:Apr_17 .
+
+ns2:Permits_Apr_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Apr_16 ;
+    ns3:hasMin ns2:Apr_15 .
+
+ns2:Permits_Apr_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Permits_Apr_Start ;
+    ns1:hasDuration ns2:Permits_Apr_Duration ;
+    ns1:hasEnd ns2:Permits_Apr_End .
+
+ns2:Permits_Aug_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Aug_17 ;
+    ns3:hasMin ns2:Aug_16 .
+
+ns2:Permits_Aug_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Aug_18 ;
+    ns3:hasMin ns2:Aug_17 .
+
+ns2:Permits_Aug_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Aug_16 ;
+    ns3:hasMin ns2:Aug_13 .
+
+ns2:Permits_Aug_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Permits_Aug_Start ;
+    ns1:hasDuration ns2:Permits_Aug_Duration ;
+    ns1:hasEnd ns2:Permits_Aug_End .
+
+ns2:Permits_Feb_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Feb_12 ;
+    ns3:hasMin ns2:Feb_10 .
+
+ns2:Permits_Feb_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Feb_16 ;
+    ns3:hasMin ns2:Feb_15 .
+
+ns2:Permits_Feb_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Feb_13 ;
+    ns3:hasMin ns2:Feb_11 .
+
+ns2:Permits_Feb_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Permits_Feb_Start ;
+    ns1:hasDuration ns2:Permits_Feb_Duration ;
+    ns1:hasEnd ns2:Permits_Feb_End .
+
+ns2:Police_Apr_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Apr_16 ;
+    ns3:hasMin ns2:Apr_15 .
+
+ns2:Police_Apr_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Apr_17 ;
+    ns3:hasMin ns2:Apr_16 .
+
+ns2:Police_Apr_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Apr_15 ;
+    ns3:hasMin ns2:Apr_12 .
+
+ns2:Police_Apr_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Police_Apr_Start ;
+    ns1:hasDuration ns2:Police_Apr_Duration ;
+    ns1:hasEnd ns2:Police_Apr_End .
+
+ns2:Police_Feb_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Feb_16 ;
+    ns3:hasMin ns2:Feb_15 .
+
+ns2:Police_Feb_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Feb_18 ;
+    ns3:hasMin ns2:Feb_16 .
+
+ns2:Police_Feb_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Feb_15 ;
+    ns3:hasMin ns2:Feb_13 .
+
+ns2:Police_Feb_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Police_Feb_Start ;
+    ns1:hasDuration ns2:Police_Feb_Duration ;
+    ns1:hasEnd ns2:Police_Feb_End .
+
+ns2:Police_July_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:July_16 ;
+    ns3:hasMin ns2:July_15 .
+
+ns2:Police_July_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:July_20 ;
+    ns3:hasMin ns2:July_16 .
+
+ns2:Police_July_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:July_15 ;
+    ns3:hasMin ns2:July_13 .
+
+ns2:Police_July_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Police_July_Start ;
+    ns1:hasDuration ns2:Police_July_Duration ;
+    ns1:hasEnd ns2:Police_July_End .
+
+ns2:Police_Oct_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Oct_16 ;
+    ns3:hasMin ns2:Oct_15 .
+
+ns2:Police_Oct_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Oct_17 ;
+    ns3:hasMin ns2:Oct_16 .
+
+ns2:Police_Oct_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Oct_15 ;
+    ns3:hasMin ns2:Oct_14 .
+
+ns2:Police_Oct_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Police_Oct_Start ;
+    ns1:hasDuration ns2:Police_Oct_Duration ;
+    ns1:hasEnd ns2:Police_Oct_End .
+
+ns2:Power_Feb_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Feb_12 ;
+    ns3:hasMin ns2:Feb_10 .
+
+ns2:Power_Feb_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Feb_15 ;
+    ns3:hasMin ns2:Feb_12 .
+
+ns2:Power_Feb_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Feb_10 ;
+    ns3:hasMin ns2:Feb_7 .
+
+ns2:Power_Feb_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Power_Feb_Start ;
+    ns1:hasDuration ns2:Power_Feb_Duration ;
+    ns1:hasEnd ns2:Power_Feb_End .
+
+ns2:Power_Jan_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Jan_7 ;
+    ns3:hasMin ns2:Jan_6 .
+
+ns2:Power_Jan_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Jan_10 ;
+    ns3:hasMin ns2:Jan_7 .
+
+ns2:Power_Jan_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Jan_6 ;
+    ns3:hasMin ns2:Jan_3 .
+
+ns2:Power_Jan_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Power_Jan_Start ;
+    ns1:hasDuration ns2:Power_Jan_Duration ;
+    ns1:hasEnd ns2:Power_Jan_End .
+
+ns2:Power_July_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:July_20 ;
+    ns3:hasMin ns2:July_15 .
+
+ns2:Power_July_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:July_22 ;
+    ns3:hasMin ns2:July_20 .
+
+ns2:Power_July_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:July_15 ;
+    ns3:hasMin ns2:July_13 .
+
+ns2:Power_July_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Power_July_Start ;
+    ns1:hasDuration ns2:Power_July_Duration ;
+    ns1:hasEnd ns2:Power_July_End .
+
+ns2:Power_Nov_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Nov_20 ;
+    ns3:hasMin ns2:Nov_15 .
+
+ns2:Power_Nov_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Nov_22 ;
+    ns3:hasMin ns2:Nov_20 .
+
+ns2:Power_Nov_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Nov_15 ;
+    ns3:hasMin ns2:Nov_13 .
+
+ns2:Power_Nov_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Power_Nov_Start ;
+    ns1:hasDuration ns2:Power_Nov_Duration ;
+    ns1:hasEnd ns2:Power_Nov_End .
+
+ns2:Sep_14 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 14 ;
+    ns1:month 9 ;
+    ns1:year 2018 .
+
+ns2:Sep_20 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 20 ;
+    ns1:month 9 ;
+    ns1:year 2018 .
+
+ns2:Sewage_Apr_Durartion a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Apr_4 ;
+    ns3:hasMin ns2:Apr_2 .
+
+ns2:Sewage_Apr_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Apr_6 ;
+    ns3:hasMin ns2:Apr_4 .
+
+ns2:Sewage_Apr_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Apr_2 ;
+    ns3:hasMin ns2:Apr_1 .
+
+ns2:Sewage_Apr_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Sewage_Apr_Start ;
+    ns1:hasDuration ns2:Sewage_Apr_Durartion ;
+    ns1:hasEnd ns2:Sewage_Apr_End .
+
+ns2:Sewage_Aug_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Aug_5 ;
+    ns3:hasMin ns2:Aug_2 .
+
+ns2:Sewage_Aug_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Aug_6 ;
+    ns3:hasMin ns2:Aug_5 .
+
+ns2:Sewage_Aug_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Aug_2 ;
+    ns3:hasMin ns2:Aug_1 .
+
+ns2:Sewage_Aug_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Sewage_Aug_Start ;
+    ns1:hasDuration ns2:Sewage_Aug_Duration ;
+    ns1:hasEnd ns2:Sewage_Aug_End .
+
+ns2:Sewage_Feb_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Feb_10 ;
+    ns3:hasMin ns2:Feb_5 .
+
+ns2:Sewage_Feb_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Feb_12 ;
+    ns3:hasMin ns2:Feb_10 .
+
+ns2:Sewage_Feb_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Feb_5 ;
+    ns3:hasMin ns2:Feb_3 .
+
+ns2:Sewage_Feb_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Sewage_Feb_Start ;
+    ns1:hasDuration ns2:Sewage_Feb_Duration ;
+    ns1:hasEnd ns2:Sewage_Feb_End .
+
+ns2:Sewage_Jan_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Jan_10 ;
+    ns3:hasMin ns2:Jan_3 .
+
+ns2:Sewage_Jan_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Jan_9 ;
+    ns3:hasMin ns2:Jan_7 .
+
+ns2:Sewage_Jan_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Jan_3 ;
+    ns3:hasMin ns2:Jan_1 .
+
+ns2:Sewage_Jan_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Sewage_Jan_Start ;
+    ns1:hasDuration ns2:Sewage_Jan_Duration ;
+    ns1:hasEnd ns2:Sewage_Jan_End .
+
+ns2:Sewage_June_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:June_10 ;
+    ns3:hasMin ns2:June_5 .
+
+ns2:Sewage_June_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:June_12 ;
+    ns3:hasMin ns2:June_10 .
+
+ns2:Sewage_June_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:June_5 ;
+    ns3:hasMin ns2:June_4 .
+
+ns2:Sewage_June_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Sewage_June_Start ;
+    ns1:hasDuration ns2:Sewage_June_Duration ;
+    ns1:hasEnd ns2:Sewage_June_End .
+
+ns2:Sewage_Oct_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Oct_5 ;
+    ns3:hasMin ns2:Oct_2 .
+
+ns2:Sewage_Oct_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Oct_6 ;
+    ns3:hasMin ns2:Oct_5 .
+
+ns2:Sewage_Oct_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Oct_2 ;
+    ns3:hasMin ns2:Oct_1 .
+
+ns2:Sewage_Oct_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Sewage_Oct_Start ;
+    ns1:hasDuration ns2:Sewage_Oct_Duration ;
+    ns1:hasEnd ns2:Sewage_Oct_End .
+
+ns2:Transportation_Dec_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Dec_18 ;
+    ns3:hasMin ns2:Dec_16 .
+
+ns2:Transportation_Dec_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Dec_19 ;
+    ns3:hasMin ns2:Dec_18 .
+
+ns2:Transportation_Dec_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Dec_16 ;
+    ns3:hasMin ns2:Dec_15 .
+
+ns2:Transportation_Dec_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Transportation_Dec_Start ;
+    ns1:hasDuration ns2:Transportation_Dec_Duration ;
+    ns1:hasEnd ns2:Transportation_Dec_End .
+
+ns2:Transportation_Feb_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Feb_18 ;
+    ns3:hasMin ns2:Feb_16 .
+
+ns2:Transportation_Feb_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Feb_19 ;
+    ns3:hasMin ns2:Feb_18 .
+
+ns2:Transportation_Feb_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Feb_16 ;
+    ns3:hasMin ns2:Feb_15 .
+
+ns2:Transportation_Feb_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Transportation_Feb_Start ;
+    ns1:hasDuration ns2:Transportation_Feb_Duration ;
+    ns1:hasEnd ns2:Transportation_Feb_End .
+
+ns2:Transportation_Jan_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Jan_25 ;
+    ns3:hasMin ns2:Jan_22 .
+
+ns2:Transportation_Jan_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Jan_27 ;
+    ns3:hasMin ns2:Jan_25 .
+
+ns2:Transportation_Jan_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Jan_22 ;
+    ns3:hasMin ns2:Jan_20 .
+
+ns2:Transportation_Jan_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Transportation_Jan_Start ;
+    ns1:hasDuration ns2:Transportation_Jan_Duration ;
+    ns1:hasEnd ns2:Transportation_Jan_End .
+
+ns2:Transportation_May_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:May_18 ;
+    ns3:hasMin ns2:May_16 .
+
+ns2:Transportation_May_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:May_20 ;
+    ns3:hasMin ns2:May_18 .
+
+ns2:Transportation_May_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:May_16 ;
+    ns3:hasMin ns2:May_14 .
+
+ns2:Transportation_May_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Transportation_May_Start ;
+    ns1:hasDuration ns2:Transportation_May_Duration ;
+    ns1:hasEnd ns2:Transportation_May_End .
+
+ns2:Transportation_Sep_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Sep_18 ;
+    ns3:hasMin ns2:Sep_16 .
+
+ns2:Transportation_Sep_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Sep_20 ;
+    ns3:hasMin ns2:Sep_18 .
+
+ns2:Transportation_Sep_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Sep_16 ;
+    ns3:hasMin ns2:Sep_14 .
+
+ns2:Transportation_Sep_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Transportation_Sep_Start ;
+    ns1:hasDuration ns2:Transportation_Sep_Duration ;
+    ns1:hasEnd ns2:Transportation_Sep_End .
+
+ns2:Water_Apr_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Apr_10 ;
+    ns3:hasMin ns2:Apr_6 .
+
+ns2:Water_Apr_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Apr_12 ;
+    ns3:hasMin ns2:Apr_10 .
+
+ns2:Water_Apr_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Apr_6 ;
+    ns3:hasMin ns2:Apr_4 .
+
+ns2:Water_Apr_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Water_Apr_Start ;
+    ns1:hasDuration ns2:Water_Apr_Duration ;
+    ns1:hasEnd ns2:Water_Apr_End .
+
+ns2:Water_Aug_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Aug_10 ;
+    ns3:hasMin ns2:Aug_6 .
+
+ns2:Water_Aug_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Aug_13 ;
+    ns3:hasMin ns2:Aug_10 .
+
+ns2:Water_Aug_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Aug_6 ;
+    ns3:hasMin ns2:Aug_4 .
+
+ns2:Water_Aug_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Water_Aug_Start ;
+    ns1:hasDuration ns2:Water_Aug_Duration ;
+    ns1:hasEnd ns2:Water_Aug_End .
+
+ns2:Water_Feb_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Feb_15 ;
+    ns3:hasMin ns2:Feb_12 .
+
+ns2:Water_Feb_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Feb_18 ;
+    ns3:hasMin ns2:Feb_15 .
+
+ns2:Water_Feb_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Feb_12 ;
+    ns3:hasMin ns2:Feb_11 .
+
+ns2:Water_Feb_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Water_Feb_Start ;
+    ns1:hasDuration ns2:Water_Feb_Duration ;
+    ns1:hasEnd ns2:Water_Feb_End .
+
+ns2:Water_Jan_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Jan_9 ;
+    ns3:hasMin ns2:Jan_4 .
+
+ns2:Water_Jan_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Jan_12 ;
+    ns3:hasMin ns2:Jan_9 .
+
+ns2:Water_Jan_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Jan_4 ;
+    ns3:hasMin ns2:Jan_1 .
+
+ns2:Water_Jan_TimeInterval a owl:NamedIndividual,
+        ns1:DateTimeInterval ;
+    ns1:hasBeginning ns2:Water_Jan_Start ;
+    ns1:hasDuration ns2:Water_Jan_Duration ;
+    ns1:hasEnd ns2:Water_Jan_End .
+
+ns2:Water_June_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:June_10 ;
+    ns3:hasMin ns2:June_6 .
+
+ns2:Water_June_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:June_12 ;
+    ns3:hasMin ns2:June_10 .
+
+ns2:Water_June_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:June_6 ;
+    ns3:hasMin ns2:June_4 .
+
+ns2:Water_June_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Water_June_Start ;
+    ns1:hasDuration ns2:Water_June_Duration ;
+    ns1:hasEnd ns2:Water_June_End .
+
+ns2:Water_Oct_Duration a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Oct_10 ;
+    ns3:hasMin ns2:Oct_6 .
+
+ns2:Water_Oct_End a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Oct_15 ;
+    ns3:hasMin ns2:Oct_10 .
+
+ns2:Water_Oct_Start a ns3:CDateTimeInstant,
+        owl:NamedIndividual ;
+    ns3:hasMax ns2:Oct_6 ;
+    ns3:hasMin ns2:Oct_4 .
+
+ns2:Water_Oct_TimeInterval a ns3:CDateTimeInterval,
+        owl:NamedIndividual ;
+    ns1:hasBeginning ns2:Water_Oct_Start ;
+    ns1:hasDuration ns2:Water_Oct_Duration ;
+    ns1:hasEnd ns2:Water_Oct_End .
+
+ns2:test_activity_duration a <http://ontology.eil.utoronto.ca/TOVE2/ctime.rdf#CDateTimeInstant> ;
+    ns3:hasMax ns2:test_activity_duration_max ;
+    ns3:hasMin ns2:test_activity_duration_min .
+
+ns2:test_activity_duration_max a ns1:DateTimeDescription ;
+    ns1:day 1 ;
+    ns1:month 2 ;
+    ns1:year 2017 .
+
+ns2:test_activity_duration_min a ns1:DateTimeDescription ;
+    ns1:day 5 ;
+    ns1:month 1 ;
+    ns1:year 2017 .
+
+ns2:test_activity_end a <http://ontology.eil.utoronto.ca/TOVE2/ctime.rdf#CDateTimeInstant> ;
+    ns3:hasMax ns2:test_activity_end_max ;
+    ns3:hasMin ns2:test_activity_end_min .
+
+ns2:test_activity_end_max a ns1:DateTimeDescription ;
+    ns1:day 5 ;
+    ns1:month 2 ;
+    ns1:year 2017 .
+
+ns2:test_activity_end_min a ns1:DateTimeDescription ;
+    ns1:day 1 ;
+    ns1:month 2 ;
+    ns1:year 2017 .
+
+ns2:test_activity_start a <http://ontology.eil.utoronto.ca/TOVE2/ctime.rdf#CDateTimeInstant> ;
+    ns3:hasMax ns2:test_activity_start_max ;
+    ns3:hasMin ns2:test_activity_start_min .
+
+ns2:test_activity_start_max a ns1:DateTimeDescription ;
+    ns1:day 5 ;
+    ns1:month 1 ;
+    ns1:year 2017 .
+
+ns2:test_activity_start_min a ns1:DateTimeDescription ;
+    ns1:day 1 ;
+    ns1:month 1 ;
+    ns1:year 2017 .
+
+ns2:test_activity_timeInterval a ns1:CDateTimeInterval ;
+    ns1:hasBeginning ns2:test_activity_start ;
+    ns1:hasDuration ns2:test_activity_duration ;
+    ns1:hasEnd ns2:test_activity_end .
+
+ns2:Apr_10 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 10 ;
+    ns1:month 4 ;
+    ns1:year 2018 .
+
+ns2:Apr_12 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 12 ;
+    ns1:month 4 ;
+    ns1:year 2018 .
+
+ns2:Apr_17 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 17 ;
+    ns1:month 4 ;
+    ns1:year 2018 .
+
+ns2:Apr_2 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 2 ;
+    ns1:month 4 ;
+    ns1:year 2018 .
+
+ns2:Aug_10 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 10 ;
+    ns1:month 8 ;
+    ns1:year 2018 .
+
+ns2:Aug_13 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 13 ;
+    ns1:month 8 ;
+    ns1:year 2018 .
+
+ns2:Aug_16 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 16 ;
+    ns1:month 8 ;
+    ns1:year 2018 .
+
+ns2:Aug_17 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 17 ;
+    ns1:month 8 ;
+    ns1:year 2018 .
+
+ns2:Aug_2 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 2 ;
+    ns1:month 8 ;
+    ns1:year 2018 .
+
+ns2:Aug_5 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 5 ;
+    ns1:month 8 ;
+    ns1:year 2018 .
+
+ns2:Dec_12 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 12 ;
+    ns1:month 12 ;
+    ns1:year 2018 .
+
+ns2:Dec_15 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 15 ;
+    ns1:month 12 ;
+    ns1:year 2018 .
+
+ns2:Dec_16 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 16 ;
+    ns1:month 12 ;
+    ns1:year 2018 .
+
+ns2:Dec_18 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 18 ;
+    ns1:month 12 ;
+    ns1:year 2018 .
+
+ns2:Dec_9 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 9 ;
+    ns1:month 12 ;
+    ns1:year 2018 .
+
+ns2:Feb_11 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 11 ;
+    ns1:month 2 ;
+    ns1:year 2018 .
+
+ns2:Feb_13 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 13 ;
+    ns1:month 2 ;
+    ns1:year 2018 .
+
+ns2:Feb_20 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 20 ;
+    ns1:month 2 ;
+    ns1:year 2018 .
+
+ns2:Feb_5 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 5 ;
+    ns1:month 2 ;
+    ns1:year 2018 .
+
+ns2:Jan_1 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 1 ;
+    ns1:month 1 ;
+    ns1:year 2018 .
+
+ns2:Jan_22 a owl:NamedIndividual,
+        ns1:DateTimeDescription .
+
+ns2:Jan_25 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 25 ;
+    ns1:month 1 ;
+    ns1:year 2018 .
+
+ns2:July_13 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 13 ;
+    ns1:month 7 ;
+    ns1:year 2018 .
+
+ns2:July_16 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 16 ;
+    ns1:month 7 ;
+    ns1:year 2018 .
+
+ns2:June_12 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 12 ;
+    ns1:month 6 ;
+    ns1:year 2018 .
+
+ns2:June_4 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 4 ;
+    ns1:month 6 ;
+    ns1:year 2018 .
+
+ns2:June_5 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 5 ;
+    ns1:month 6 ;
+    ns1:year 2018 .
+
+ns2:June_6 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 6 ;
+    ns1:month 6 ;
+    ns1:year 2018 .
+
+ns2:May_16 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 16 ;
+    ns1:month 5 ;
+    ns1:year 2018 .
+
+ns2:May_18 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 18 ;
+    ns1:month 5 ;
+    ns1:year 2018 .
+
+ns2:Nov_15 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 15 ;
+    ns1:month 11 ;
+    ns1:year 2018 .
+
+ns2:Nov_20 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 20 ;
+    ns1:month 11 ;
+    ns1:year 2018 .
+
+ns2:Oct_10 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 10 ;
+    ns1:month 10 ;
+    ns1:year 2018 .
+
+ns2:Oct_16 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 16 ;
+    ns1:month 10 ;
+    ns1:year 2018 .
+
+ns2:Oct_2 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 2 ;
+    ns1:month 10 ;
+    ns1:year 2018 .
+
+ns2:Oct_5 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 5 ;
+    ns1:month 10 ;
+    ns1:year 2018 .
+
+ns2:Sep_16 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 16 ;
+    ns1:month 9 ;
+    ns1:year 2018 .
+
+ns2:Sep_18 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 18 ;
+    ns1:month 9 ;
+    ns1:year 2018 .
+
+ns2:Apr_4 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 4 ;
+    ns1:month 4 ;
+    ns1:year 2018 .
+
+ns2:Apr_6 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 6 ;
+    ns1:month 4 ;
+    ns1:year 2018 .
+
+ns2:Aug_6 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 6 ;
+    ns1:month 8 ;
+    ns1:year 2018 .
+
+ns2:Business a ns2:Department,
+        owl:NamedIndividual .
+
+ns2:Jan_10 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 10 ;
+    ns1:month 1 ;
+    ns1:year 2018 .
+
+ns2:Jan_3 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 3 ;
+    ns1:month 1 ;
+    ns1:year 2018 .
+
+ns2:Jan_4 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 4 ;
+    ns1:month 1 ;
+    ns1:year 2018 .
+
+ns2:Jan_7 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 7 ;
+    ns1:month 1 ;
+    ns1:year 2018 .
+
+ns2:July_20 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 20 ;
+    ns1:month 7 ;
+    ns1:year 2018 .
+
+ns2:Oct_15 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 15 ;
+    ns1:month 10 ;
+    ns1:year 2018 .
+
+ns2:Oct_6 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 6 ;
+    ns1:month 10 ;
+    ns1:year 2018 .
+
+ns2:Permits a ns2:Department,
+        owl:NamedIndividual .
+
+ns2:Apr_15 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 15 ;
+    ns1:month 4 ;
+    ns1:year 2018 .
+
+ns2:Apr_16 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 16 ;
+    ns1:month 4 ;
+    ns1:year 2018 .
+
+ns2:Jan_6 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 6 ;
+    ns1:month 1 ;
+    ns1:year 2018 .
+
+ns2:July_15 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 15 ;
+    ns1:month 7 ;
+    ns1:year 2018 .
+
+ns2:June_10 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 10 ;
+    ns1:month 6 ;
+    ns1:year 2018 .
+
+ns2:Police a ns2:Department,
+        owl:NamedIndividual .
+
+ns2:Feb_10 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 10 ;
+    ns1:month 2 ;
+    ns1:year 2018 .
+
+ns2:Jan_9 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 9 ;
+    ns1:month 1 ;
+    ns1:year 2018 .
+
+ns2:Power a ns2:Department,
+        owl:NamedIndividual .
+
+ns2:Sewage a ns2:Department,
+        owl:NamedIndividual .
+
+ns2:Transportation a ns2:Department,
+        owl:NamedIndividual .
+
+ns2:Feb_12 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 12 ;
+    ns1:month 2 ;
+    ns1:year 2018 .
+
+ns2:Feb_16 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 16 ;
+    ns1:month 2 ;
+    ns1:year 2018 .
+
+ns2:Feb_18 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 18 ;
+    ns1:month 2 ;
+    ns1:year 2018 .
+
+ns2:Feb_15 a owl:NamedIndividual,
+        ns1:DateTimeDescription ;
+    ns1:day 15 ;
+    ns1:month 2 ;
+    ns1:year 2018 .
+
+ns2:Water a ns2:Department,
+        owl:NamedIndividual .
+
+ns2:Department a owl:Class ;
+    rdfs:subClassOf <http://ontology.eil.utoronto.ca/activity.owl#ActivityThing> .
+
